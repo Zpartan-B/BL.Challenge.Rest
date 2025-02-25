@@ -14,7 +14,9 @@
 
 - A docker container has been created and is running under an AWS ECS cluster and delivered via Elastic Load Balancer: http://BLChal-Recip-3gvOjdDm1Ecs-841706532.us-east-1.elb.amazonaws.com
 
- The methods can be accessed via CURL with the following definitions 
+ The methods can be accessed via CURL with the following definitions
+ 
+--------------------------------------------------------------------------------------------------------
  curl -X 'GET' \
   'http://BLChal-Recip-3gvOjdDm1Ecs-841706532.us-east-1.elb.amazonaws.com/api/Customer' \
   -H 'accept: text/plain'
@@ -52,3 +54,6 @@ curl -X 'PUT' \
 curl -X 'DELETE' \
   'https://localhost:7283/api/Customer/1' \
   -H 'accept: */*'
+--------------------------------------------------------------------------------------------------------
+
+
